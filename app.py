@@ -14,8 +14,6 @@ s3 = boto3.resource('s3',
 #Connect to GPT3.5 API
 openai.api_key = "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"
 
-
-
 def load_documents_from_s3(bucket_name):
 
     documents = []
